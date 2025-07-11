@@ -1,0 +1,69 @@
+2025/07/10-22:09:27.462 7870 Reusing MANIFEST F:\Digital\Bot Aquafitness\tokens\aquafitness-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/10-22:09:27.464 7870 Recovering log #1575
+2025/07/10-22:09:27.545 7870 Reusing old log F:\Digital\Bot Aquafitness\tokens\aquafitness-bot\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001575.log 
+2025/07/10-22:09:28.521 7870 Level-0 table #1590: started
+2025/07/10-22:09:28.557 7870 Level-0 table #1590: 979332 bytes OK
+2025/07/10-22:09:28.558 7870 Delete type=0 #1575
+2025/07/10-22:09:28.561 7870 Manual compaction at level-0 from '\x00o\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00p\x00\x00\x00' @ 0 : 0; will stop at '\x00o\x00\x00\x05' @ 5451164 : 1
+2025/07/10-22:09:28.561 7870 Compacting 1@0 + 0@1 files
+2025/07/10-22:09:28.581 7870 Generated table #1591@0: 16870 keys, 280126 bytes
+2025/07/10-22:09:28.581 7870 Compacted 1@0 + 0@1 files => 280126 bytes
+2025/07/10-22:09:28.581 7870 compacted to: files[ 0 1 10 0 0 0 0 ]
+2025/07/10-22:09:28.582 7870 Delete type=2 #1590
+2025/07/10-22:09:28.583 7870 Manual compaction at level-0 from '\x00o\x00\x00\x05' @ 5451164 : 1 .. '\x00p\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/07/10-22:09:30.757 7bd4 Compacting 1@1 + 9@2 files
+2025/07/10-22:09:30.864 7bd4 Generated table #1592@1: 87411 keys, 2236730 bytes
+2025/07/10-22:09:30.937 7bd4 Generated table #1593@1: 95340 keys, 2248385 bytes
+2025/07/10-22:09:30.994 7bd4 Generated table #1594@1: 96497 keys, 2247881 bytes
+2025/07/10-22:09:31.061 7bd4 Generated table #1595@1: 101479 keys, 2254148 bytes
+2025/07/10-22:09:31.147 7bd4 Generated table #1596@1: 101370 keys, 2254428 bytes
+2025/07/10-22:09:31.202 7bd4 Generated table #1597@1: 22649 keys, 2277253 bytes
+2025/07/10-22:09:31.263 7bd4 Generated table #1598@1: 34180 keys, 2197724 bytes
+2025/07/10-22:09:31.310 7bd4 Generated table #1599@1: 27184 keys, 2213559 bytes
+2025/07/10-22:09:31.359 7bd4 Generated table #1600@1: 40411 keys, 2204691 bytes
+2025/07/10-22:09:31.362 7bd4 Generated table #1601@1: 85 keys, 63148 bytes
+2025/07/10-22:09:31.362 7bd4 Compacted 1@1 + 9@2 files => 20197947 bytes
+2025/07/10-22:09:31.363 7bd4 compacted to: files[ 0 0 11 0 0 0 0 ]
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1578
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1579
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1580
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1581
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1582
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1583
+2025/07/10-22:09:31.363 7bd4 Delete type=2 #1584
+2025/07/10-22:09:31.364 7bd4 Delete type=2 #1585
+2025/07/10-22:09:31.364 7bd4 Delete type=2 #1586
+2025/07/10-22:09:31.364 7bd4 Delete type=2 #1591
+2025/07/10-22:11:09.576 7bd4 Level-0 table #1603: started
+2025/07/10-22:11:09.602 7bd4 Level-0 table #1603: 1223041 bytes OK
+2025/07/10-22:11:09.604 7bd4 Delete type=0 #1589
+2025/07/10-22:11:10.057 7870 Compacting 1@0 + 0@1 files
+2025/07/10-22:11:10.101 7870 Generated table #1604@0: 22844 keys, 453558 bytes
+2025/07/10-22:11:10.101 7870 Compacted 1@0 + 0@1 files => 453558 bytes
+2025/07/10-22:11:10.102 7870 compacted to: files[ 0 1 11 0 0 0 0 ]
+2025/07/10-22:11:10.102 7870 Delete type=2 #1603
+2025/07/10-22:11:10.610 7bd4 Compacting 1@1 + 11@2 files
+2025/07/10-22:11:10.718 7bd4 Generated table #1605@1: 87718 keys, 2238680 bytes
+2025/07/10-22:11:10.814 7bd4 Generated table #1606@1: 95241 keys, 2246392 bytes
+2025/07/10-22:11:10.902 7bd4 Generated table #1607@1: 96462 keys, 2248599 bytes
+2025/07/10-22:11:10.971 7bd4 Generated table #1608@1: 101479 keys, 2254715 bytes
+2025/07/10-22:11:11.033 7bd4 Generated table #1609@1: 101370 keys, 2254543 bytes
+2025/07/10-22:11:11.089 7bd4 Generated table #1610@1: 25819 keys, 2281231 bytes
+2025/07/10-22:11:11.139 7bd4 Generated table #1611@1: 34150 keys, 2192201 bytes
+2025/07/10-22:11:11.185 7bd4 Generated table #1612@1: 25394 keys, 2210416 bytes
+2025/07/10-22:11:11.236 7bd4 Generated table #1613@1: 42545 keys, 2208558 bytes
+2025/07/10-22:11:11.300 7bd4 Generated table #1614@1: 83359 keys, 1918432 bytes
+2025/07/10-22:11:11.301 7bd4 Compacted 1@1 + 11@2 files => 22053767 bytes
+2025/07/10-22:11:11.301 7bd4 compacted to: files[ 0 0 10 0 0 0 0 ]
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1587
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1592
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1593
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1594
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1595
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1596
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1597
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1598
+2025/07/10-22:11:11.302 7bd4 Delete type=2 #1599
+2025/07/10-22:11:11.303 7bd4 Delete type=2 #1600
+2025/07/10-22:11:11.303 7bd4 Delete type=2 #1601
+2025/07/10-22:11:11.303 7bd4 Delete type=2 #1604
