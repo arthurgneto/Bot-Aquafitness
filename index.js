@@ -461,7 +461,7 @@ case '7':
   await enviarMensagemLenta(
     client,
     contato,
-    `🔥🏋️*Funcional*\n
+    `🔥🏋️ *Natação Infantil*\n
 \n- Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.\n`
   );
 
@@ -524,8 +524,7 @@ case '9':
     client,
     contato,
     `💃 *Zumba* 
-    \n- Mexa o corpo, queime calorias e se divirta!
-Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!\n- Mensal R$ 70,00`
+    \n- Mexa o corpo, queime calorias e se divirta! Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!\n- Mensal R$ 70,00`
   );
 
 
@@ -542,15 +541,14 @@ case '10':
     client,
     contato,
     `🔥 *GAP*\n
-\n- Aula de GAP (Glúteos, Abdômen e Pernas):
-Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.\n- Mensal R$ 70,00`
+\n- Aula de GAP (Glúteos, Abdômen e Pernas). Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.\n- Mensal R$ 70,00`
   );
 
 
 await enviarMensagemLenta(
     client,
     contato,
-    `\n-Aulas inclusas em todos os planos da academia de forma gratuita`);
+    `\n- Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
@@ -560,8 +558,7 @@ case '11':
     client,
     contato,
     `🪩 *Passinho Flashback*\n
-\n- Reviva os melhores hits dos anos 70, 80 e 90!
-Movimente-se ao som dos clássicos que marcaram gerações, combinando diversão, ritmo e exercício. Perfeita para queimar calorias, melhorar o condicionamento e se divertir como nos bons tempos!\n- Mensal R$ 80,00` 
+\n- Reviva os melhores hits dos anos 70, 80 e 90! Movimente-se ao som dos clássicos que marcaram gerações, combinando diversão, ritmo e exercício. Perfeita para queimar calorias, melhorar o condicionamento e se divertir como nos bons tempos!\n- Mensal R$ 80,00` 
   );
 
    await enviarMensagemLenta(
