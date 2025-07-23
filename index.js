@@ -345,6 +345,13 @@ case '2':
 - Aulas divertidas com foco em adaptação, segurança e desenvolvimento aquático.`
   );
 
+
+await client.sendText(
+    contato,
+    `-Natação Infantil – Aprendizado e diversão desde os 6 meses!
+Nossa natação infantil é ideal para crianças a partir dos 6 meses de vida. Com aulas lúdicas e seguras, os pequenos desenvolvem coordenação, equilíbrio, disciplina e autoconfiança.
+As turmas são divididas por níveis de aprendizado, garantindo que cada criança evolua no seu ritmo. Também realizamos avaliações trimestrais para acompanhar o progresso de cada aluno.`);
+
   await client.sendText(
     contato,
     `*Planos*
@@ -458,10 +465,19 @@ case '7':
 -Treinos funcionais para melhorar capacidade física e resistência.\n`
   );
 
+await client.sendText(
+    contato,
+    `Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.`);
+
   await client.sendText(
     contato,
     `Mensal R$ 85,00 `
   );
+
+await enviarMensagemLenta(
+    client,
+    contato,
+    `Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(
     client,
@@ -509,8 +525,19 @@ case '9':
   await enviarMensagemLenta(
     client,
     contato,
-    `💃 *Zumba* \n- Uma aula divertida e energética que combina dança e exercícios aeróbicos ao som de ritmos latinos e internacionais.\n- Mensal R$ 85,00`
+    `💃 *Zumba* \n- Uma aula divertida e energética que combina dança e exercícios aeróbicos ao som de ritmos latinos e internacionais.\n- Mensal R$ 70,00`
   );
+
+await client.sendText(
+    contato,
+    `–Mexa o corpo, queime calorias e se divirta!
+Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!`);
+
+await enviarMensagemLenta(
+    client,
+    contato,
+    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
 
@@ -519,8 +546,19 @@ case '10':
     client,
     contato,
     `🔥 *GAP*\n
-- Glúteo, Abdômen e Perna\n- Mensal R$ 85,00`
+- Glúteo, Abdômen e Perna\n- Mensal R$ 70,00`
   );
+
+await client.sendText(
+    contato,
+    `Aula de GAP (Glúteos, Abdômen e Pernas):
+Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.`);
+
+await enviarMensagemLenta(
+    client,
+    contato,
+    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
 
@@ -529,8 +567,15 @@ case '11':
     client,
     contato,
     `🪩 *Passinho Flashback*\n
-- Dança retrô ao som dos anos 70, 80 e 90! 🎶🕺\n- Mensal R$ 85,00` 
+-Reviva os melhores hits dos anos 70, 80 e 90!
+Movimente-se ao som dos clássicos que marcaram gerações, combinando diversão, ritmo e exercício. Perfeita para queimar calorias, melhorar o condicionamento e se divertir como nos bons tempos!\n- Mensal R$ 80,00` 
   );
+
+   await enviarMensagemLenta(
+    client,
+    contato,
+    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
 
