@@ -149,7 +149,7 @@ if (estado.modoSilencio) {
     client,
     contato,
     `🏋️ *Musculação*\n
-- Um espaço climatizado, acolhedor e cuidadosamente estruturado para te acompanhar em todas as fases: seja no emagrecimento, na hipertrofia, no condicionamento físico, no cuidado com patologias ou no processo de envelhecer com mais saúde e qualidade de vida.
+\n- Um espaço climatizado, acolhedor e cuidadosamente estruturado para te acompanhar em todas as fases: seja no emagrecimento, na hipertrofia, no condicionamento físico, no cuidado com patologias ou no processo de envelhecer com mais saúde e qualidade de vida.
 Com nosso app exclusivo e professores qualificados, seus treinos são personalizados, obtendo melhores resultados.`
   );
 
@@ -209,10 +209,10 @@ case '4':
     client,
     contato,
     `💧 *Hidroginástica* \n
--Melhorar o condicionamento físico com baixo impacto nas articulações.
+\n- Melhorar o condicionamento físico com baixo impacto nas articulações.
 Combinando exercícios aeróbicos e de resistência na água, sendo ideal para todas as idades, especialmente para quem busca saúde, reabilitação ou atividade física segura.
 Nossa piscina é aquecida e possui tratamento com ozônio oferecendo mais saúde e conforto, pois o ozônio reduz irritações na pele, olhos e vias respiratórias. O resultado é uma água mais pura, segura e agradável para a prática esportiva.\n
-- Obrigatório! Atestado médico e dermatológico.\n`
+\n- Obrigatório! Atestado médico e dermatológico.\n`
   );
 
 await client.sendText(
@@ -262,10 +262,10 @@ case '5':
     client,
     contato,
     `💧 *Hidroterapia* \n
-Hidroterapia com fisioterapeuta:
+\n- Hidroterapia com fisioterapeuta:
 Tratamento na água que alivia dores, melhora a mobilidade e acelera a reabilitação com segurança e conforto.
 Nossa piscina é aquecida e possui tratamento com ozônio oferecendo mais saúde e conforto, pois o ozônio reduz irritações na pele, olhos e vias respiratórias. O resultado é uma água mais pura, segura e agradável.\n
-- Obrigatório! Atestado médico e dermatológico.\n`
+\n- Obrigatório! Atestado médico e dermatológico.\n`
   );
 
   await client.sendText(
@@ -289,10 +289,10 @@ case '3':
     client,
     contato,
     `🏊 *Natação Adulto*\n
-- Do início ao avançado!
+\n- Do início ao avançado!
 Aqui, cada aluno é respeitado no seu ritmo. Trabalhamos desde a adaptação à água até o aperfeiçoamento técnico, com foco em saúde, superação e bem-estar. Seja para aprender, melhorar o condicionamento ou evoluir na natação — temos um plano para você!
 Nossa piscina é aquecida e possui tratamento com ozônio oferecendo mais saúde e conforto, pois o ozônio reduz irritações na pele, olhos e vias respiratórias. O resultado é uma água mais pura, segura e agradável para a prática esportiva.\n
-- Obrigatório! Atestado médico e dermatológico.`
+\n- Obrigatório! Atestado médico e dermatológico.`
   );
 
 await client.sendText(
@@ -342,15 +342,15 @@ case '2':
     client,
     contato,
     `👦 *Natação Infantil*\n
-- Aulas divertidas com foco em adaptação, segurança e desenvolvimento aquático.`
+\n- Aulas divertidas com foco em adaptação, segurança e desenvolvimento aquático.`
   );
 
 
 await client.sendText(
     contato,
-    `-Natação Infantil – Aprendizado e diversão desde os 6 meses!
-Nossa natação infantil é ideal para crianças a partir dos 6 meses de vida. Com aulas lúdicas e seguras, os pequenos desenvolvem coordenação, equilíbrio, disciplina e autoconfiança.
-As turmas são divididas por níveis de aprendizado, garantindo que cada criança evolua no seu ritmo. Também realizamos avaliações trimestrais para acompanhar o progresso de cada aluno.`);
+    `\n- Aprendizado e diversão desde os 6 meses!
+\n- Nossa natação infantil é ideal para crianças a partir dos 6 meses de vida. Com aulas lúdicas e seguras, os pequenos desenvolvem coordenação, equilíbrio, disciplina e autoconfiança.
+\n- As turmas são divididas por níveis de aprendizado, garantindo que cada criança evolua no seu ritmo. Também realizamos avaliações trimestrais para acompanhar o progresso de cada aluno.`);
 
   await client.sendText(
     contato,
@@ -374,7 +374,7 @@ case '6':
     client,
     contato,
     `🧘 *Estúdio de Pilates*\n
--Nosso estúdio de Pilates tem como missão cuidar do seu corpo e bem-estar.
+\n- Nosso estúdio de Pilates tem como missão cuidar do seu corpo e bem-estar.
 Oferecemos um ambiente acolhedor, com acompanhamento profissional, para que você fortaleça seu corpo, melhore sua postura, ganhe flexibilidade e encontre equilíbrio físico e mental — Tudo no seu ritmo, com atenção e carinho em cada movimento.
 
 Trabalhamos apenas com 1 aluno por horario.`
@@ -462,22 +462,20 @@ case '7':
     client,
     contato,
     `🔥🏋️*Funcional*\n
--Treinos funcionais para melhorar capacidade física e resistência.\n`
+\n- Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.\n`
   );
 
-await client.sendText(
-    contato,
-    `Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.`);
+
 
   await client.sendText(
     contato,
-    `Mensal R$ 85,00 `
+    `\n- Mensal R$ 85,00 `
   );
 
 await enviarMensagemLenta(
     client,
     contato,
-    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+    `\n- Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(
     client,
@@ -492,7 +490,7 @@ case '8':
     contato,
     `👧 *Funcional Kids 7 a 12 anos*\n
 - Movimento, diversão e saúde para os pequenos.\n
--A aula de *funcional kids* combina exercícios lúdicos com movimentos naturais do corpo (como pular, correr, empurrar e equilibrar), desenvolvendo força, coordenação, postura e agilidade de forma divertida e segura.
+\n- A aula de *funcional kids* combina exercícios lúdicos com movimentos naturais do corpo (como pular, correr, empurrar e equilibrar), desenvolvendo força, coordenação, postura e agilidade de forma divertida e segura.
 
 ✅ *Altíssimo gasto calórico*
 ✅ Estímulo ao desenvolvimento físico e mental
@@ -517,7 +515,7 @@ Tudo isso em um ambiente dinâmico, com jogos e circuitos adaptados à faixa et�
   await enviarMensagemLenta(
     client,
     contato,
-    `Para novo atendimento, digite \*menu\* ou \*olá\*.`
+    `\n- Para novo atendimento, digite \*menu\* ou \*olá\*.`
   );
   return;
 
@@ -525,18 +523,16 @@ case '9':
   await enviarMensagemLenta(
     client,
     contato,
-    `💃 *Zumba* \n- Uma aula divertida e energética que combina dança e exercícios aeróbicos ao som de ritmos latinos e internacionais.\n- Mensal R$ 70,00`
+    `💃 *Zumba* 
+    \n- Mexa o corpo, queime calorias e se divirta!
+Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!\n- Mensal R$ 70,00`
   );
 
-await client.sendText(
-    contato,
-    `–Mexa o corpo, queime calorias e se divirta!
-Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!`);
 
 await enviarMensagemLenta(
     client,
     contato,
-    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+    `\n- Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
@@ -546,18 +542,15 @@ case '10':
     client,
     contato,
     `🔥 *GAP*\n
-- Glúteo, Abdômen e Perna\n- Mensal R$ 70,00`
+\n- Aula de GAP (Glúteos, Abdômen e Pernas):
+Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.\n- Mensal R$ 70,00`
   );
 
-await client.sendText(
-    contato,
-    `Aula de GAP (Glúteos, Abdômen e Pernas):
-Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.`);
 
 await enviarMensagemLenta(
     client,
     contato,
-    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+    `\n-Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
@@ -567,14 +560,14 @@ case '11':
     client,
     contato,
     `🪩 *Passinho Flashback*\n
--Reviva os melhores hits dos anos 70, 80 e 90!
+\n- Reviva os melhores hits dos anos 70, 80 e 90!
 Movimente-se ao som dos clássicos que marcaram gerações, combinando diversão, ritmo e exercício. Perfeita para queimar calorias, melhorar o condicionamento e se divertir como nos bons tempos!\n- Mensal R$ 80,00` 
   );
 
    await enviarMensagemLenta(
     client,
     contato,
-    `Aulas inclusas em todos os planos da academia de forma gratuita`);
+    `\n- Aulas inclusas em todos os planos da academia de forma gratuita`);
 
   await enviarMensagemLenta(client, contato, `Para novo atendimento, digite *menu* ou *olá*.`);
   return;
@@ -687,13 +680,13 @@ case '14':
   await client.sendText(
     contato,
     `*Planos*
-Totalpass
+\n- Totalpass
 TP1 Musculação
 TP2 Hidroginstica 
 TP3 Natação Adulto 
 TP4 Pilates
 
-Wellhub
+\n- Wellhub
 Basic Musculação 
 Silver Hidroginástica e Natação 
 Gold + pilates`
