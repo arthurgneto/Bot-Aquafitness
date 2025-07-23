@@ -8,7 +8,7 @@ function reiniciarAtendimento(client, contato) {
   clearTimeout(timeouts.get(contato));
   estados.delete(contato);
   timeouts.delete(contato);
-  client.sendText(contato, '🔄 Opaaaaaaa, posso reiniciar o atendimento.......................................................................................................................?');
+  client.sendText(contato, '🔄 Opaaaaaaa, posso reiniciar o atendimento......................................................................................................?');
   enviarMenuPrincipal(client, contato);
 }
 
