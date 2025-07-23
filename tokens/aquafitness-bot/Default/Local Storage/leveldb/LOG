@@ -1,3 +1,15 @@
-2025/07/11-00:35:49.171 3c68 Reusing MANIFEST F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\Local Storage\leveldb/MANIFEST-000001
-2025/07/11-00:35:49.180 3c68 Recovering log #223
-2025/07/11-00:35:49.183 3c68 Reusing old log F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\Local Storage\leveldb/000223.log 
+2025/07/19-21:53:59.109 6a10 Reusing MANIFEST F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/19-21:53:59.115 6a10 Recovering log #446
+2025/07/19-21:53:59.117 6a10 Reusing old log F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\Local Storage\leveldb/000446.log 
+2025/07/19-23:14:59.287 6a10 Level-0 table #450: started
+2025/07/19-23:14:59.313 6a10 Level-0 table #450: 13343 bytes OK
+2025/07/19-23:14:59.321 6a10 Delete type=0 #446
+2025/07/19-23:14:59.323 6a10 Compacting 4@0 + 1@1 files
+2025/07/19-23:14:59.334 6a10 Generated table #451@0: 127 keys, 6064 bytes
+2025/07/19-23:14:59.334 6a10 Compacted 4@0 + 1@1 files => 6064 bytes
+2025/07/19-23:14:59.336 6a10 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/19-23:14:59.339 6a10 Delete type=2 #441
+2025/07/19-23:14:59.339 6a10 Delete type=2 #443
+2025/07/19-23:14:59.339 6a10 Delete type=2 #445
+2025/07/19-23:14:59.339 6a10 Delete type=2 #447
+2025/07/19-23:14:59.339 6a10 Delete type=2 #450

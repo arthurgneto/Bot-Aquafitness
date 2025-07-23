@@ -1,3 +1,6 @@
-2025/07/11-00:35:49.267 ba4 Reusing MANIFEST F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\shared_proto_db/MANIFEST-000001
-2025/07/11-00:35:49.268 ba4 Recovering log #3
-2025/07/11-00:35:49.269 ba4 Reusing old log F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\shared_proto_db/000003.log 
+2025/07/19-21:53:59.171 b0b8 Reusing MANIFEST F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\shared_proto_db/MANIFEST-000001
+2025/07/19-21:53:59.171 b0b8 Recovering log #3
+2025/07/19-21:53:59.184 b0b8 Reusing old log F:\Digital\Bot Aquafitness\Bot-Aquafitness\tokens\aquafitness-bot\Default\shared_proto_db/000003.log 
+2025/07/19-21:53:59.194 b3f0 Level-0 table #5: started
+2025/07/19-21:53:59.215 b3f0 Level-0 table #5: 70392 bytes OK
+2025/07/19-21:53:59.217 b3f0 Delete type=0 #3
