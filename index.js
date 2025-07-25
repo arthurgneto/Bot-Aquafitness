@@ -441,15 +441,17 @@ case '7':
     client,
     contato,
     `🔥🏋️ *Funcional*\n
-\n- Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.\n`
+\n- Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.\n 
+Mensal R$ 85,00\n `
   );
 
 
 
   await client.sendText(
     contato,
-    `\n- Mensal R$ 85,00 `
-  );
+    `  -Segunda e quarta - 17h20
+-Segunda e quarta - 18h30
+-Terça - 17h10`);
 
 await enviarMensagemLenta(
     client,
