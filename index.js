@@ -158,11 +158,8 @@ await client.sendText(
     `Musculação inclui:
 
 *Funcional*
-
 -Segunda e quarta - 17h20
-
 -Segunda e quarta - 18h30
-
 -Terça - 17h10`
   );
 
@@ -176,10 +173,10 @@ Sábado
 8h às 12h
 
 *Planos*
-📆 Mensal: R$ 110,00
-📆 Semestral: R$ 85,00
-📆 Anual: R$ 80,00
-💳 Avulso: R$ 20,00
+ Mensal: R$ 110,00
+ Semestral: R$ 85,00
+ Anual: R$ 80,00
+ Avulso: R$ 20,00
 
 `
   );
@@ -188,10 +185,8 @@ Sábado
     contato,
     `*Zumba* 
 -Terça 19h00
-
 *Passinho*
 -Terça e quinta 7h30
-
 *GAP*
 -Quarta 19h30`
   );
@@ -220,11 +215,8 @@ await client.sendText(
     `Hidroginástica inclui:
 
 *Funcional*
-
 -Segunda e quarta - 17h20
-
 -Segunda e quarta - 18h30
-
 -Terça - 17h10`
   );
 
@@ -233,10 +225,8 @@ await client.sendText(
     contato,
     `*Zumba* 
 -Terça 19h00
-
 *Passinho*
 -Terça e quinta 7h30
-
 *GAP*
 -Quarta 19h30`
   );
@@ -300,11 +290,8 @@ await client.sendText(
     `Natação Adulto inclui:
 
 *Funcional*
-
 -Segunda e quarta - 17h20
-
 -Segunda e quarta - 18h30
-
 -Terça - 17h10`
   );
 
@@ -312,10 +299,8 @@ await client.sendText(
     contato,
     `*Zumba* 
 -Terça 19h00
-
 *Passinho*
 -Terça e quinta 7h30
-
 *GAP*
 -Quarta 19h30`
   );
@@ -375,9 +360,7 @@ case '6':
     contato,
     `🧘 *Estúdio de Pilates*\n
 \n- Nosso estúdio de Pilates tem como missão cuidar do seu corpo e bem-estar.
-Oferecemos um ambiente acolhedor, com acompanhamento profissional, para que você fortaleça seu corpo, melhore sua postura, ganhe flexibilidade e encontre equilíbrio físico e mental — Tudo no seu ritmo, com atenção e carinho em cada movimento.
-
-Trabalhamos apenas com 1 aluno por horario.`
+Oferecemos um ambiente acolhedor, com acompanhamento profissional, para que você fortaleça seu corpo, melhore sua postura, ganhe flexibilidade e encontre equilíbrio físico e mental — Tudo no seu ritmo, com atenção e carinho em cada movimento.`
   );
 
 await client.sendText(
@@ -385,11 +368,8 @@ await client.sendText(
     `Pilates inclui:
 
 *Funcional*
-
 -Segunda e quarta - 17h20
-
 -Segunda e quarta - 18h30
-
 -Terça - 17h10`
   );
 
@@ -397,10 +377,8 @@ await client.sendText(
     contato,
     `*Zumba* 
 -Terça 19h00
-
 *Passinho*
 -Terça e quinta 7h30
-
 *GAP*
 -Quarta 19h30`
   );
@@ -416,7 +394,8 @@ Mensal:
 Semestral:
 1x R$ 150,00
 2x R$ 250,00
-3x R$ 345,00`
+3x R$ 345,00
+Trabalhamos apenas com 1 aluno por horario.`
   );
 
 
@@ -461,7 +440,7 @@ case '7':
   await enviarMensagemLenta(
     client,
     contato,
-    `🔥🏋️ *Natação Infantil*\n
+    `🔥🏋️ *Funcional*\n
 \n- Treinamento que combina exercícios como agachamentos, flexões, pranchas, saltos e levantamento de peso corporal para melhorar força, resistência, equilíbrio e coordenação. Com alto gasto calórico, é ideal para quem busca queimar calorias enquanto fortalece o corpo todo com movimentos funcionais que facilitam o dia a dia.\n`
   );
 
@@ -527,6 +506,10 @@ case '9':
     \n- Mexa o corpo, queime calorias e se divirta! Aula animada que mistura dança e ritmos latinos com movimentos aeróbicos. Ideal para quem quer perder peso, melhorar o condicionamento físico e sair do treino com alto astral!\n- Mensal R$ 70,00`
   );
 
+  await client.sendText(
+    contato,
+    `-Terça 19h00`
+  );
 
 await enviarMensagemLenta(
     client,
@@ -543,6 +526,10 @@ case '10':
     `🔥 *GAP*\n
 \n- Aula de GAP (Glúteos, Abdômen e Pernas). Treino focado no fortalecimento e tonificação dessas três regiões, com exercícios localizados e intensos. Ideal para quem busca definir o corpo, melhorar o condicionamento e aumentar a resistência muscular.\n- Mensal R$ 70,00`
   );
+  await client.sendText(
+    contato,
+    `-Quarta 19h30`
+  );
 
 
 await enviarMensagemLenta(
@@ -561,6 +548,11 @@ case '11':
 \n- Reviva os melhores hits dos anos 70, 80 e 90! Movimente-se ao som dos clássicos que marcaram gerações, combinando diversão, ritmo e exercício. Perfeita para queimar calorias, melhorar o condicionamento e se divertir como nos bons tempos!\n- Mensal R$ 80,00` 
   );
 
+  await client.sendText(
+    contato,
+    `-Terça e quinta 7h30`
+  );
+
    await enviarMensagemLenta(
     client,
     contato,
@@ -574,15 +566,18 @@ case '12':
   await enviarMensagemLenta(
     client,
     contato,
-    `💸 *Combo Promocional*\n`
+    `💸 *Combo Promocional*\n
+*Atenção*
+Ao fechar um dos nossos combos, você garante benefícios exclusivos:
+Economia: Ganhe, em média, 50% de desconto na segunda modalidade escolhida.
+Acompanhamento: Tenha direito a uma avaliação física gratuita a cada 45 dias.
+`
 
   );
 
 await client.sendText(
     contato,
-    `🧒 *Natação Infantil + Funcional Kids*\n
-- Combinação das duas modalidades para crianças.\n
-- Desenvolvimento amplo com exercícios na água e funcionais.`
+    `🧒 *Natação Infantil + Funcional Kids*\n`
   );
 
 await client.sendText(
@@ -598,7 +593,28 @@ await client.sendText(
 
  await client.sendText(
     contato,
-    `🧘‍♀️🏊‍♀️ Pilates + Piscina 2x
+`*Combo 1*\n
+    🏋️‍♂️🏊‍♀️ Musculação + Piscina 2x
+2 x Mensal: R$ 210,00
+3 x Mensal: R$ 255,00
+2 x Semestral R$ 185,00
+3 x Semestral R$ 225,00`
+  );
+
+await client.sendText(
+    contato,
+    `*Observações*\n
+Musculação é liberada de seg à sab.
+1x 2x e 3x é a quantidade de aulas
+na piscina
+`
+  );
+
+
+ await client.sendText(
+    contato,
+    `*Combo 2*\n
+🧘‍♀️🏊‍♀️ Pilates + Piscina 2x
 
 1 x Mensal - R$ 212,50
 2 x Mensal - R$ 277,50
@@ -610,9 +626,22 @@ await client.sendText(
 + Musculação - R$ 20,00`
   );
 
+await client.sendText(
+    contato,
+    `*Observações*\n
+A piscina é sempre 2x.
+1x 2x e 3x é a quantidade de pilates que
+o aluno deseja fazer
+`
+  );
+
+
+
+
   await client.sendText(
     contato,
-    `🧘‍♀️🏋️‍♂️ Pilates + Musculação
+    `*Combo 3*\n
+🧘‍♀️🏋️‍♂️ Pilates + Musculação
 
 1 x Mensal - R$ 180,00
 2 x Mensal - R$ 240,00
@@ -623,14 +652,36 @@ await client.sendText(
 3 x Semestral - R$ 295,00`
   );
 
-  await client.sendText(
+await client.sendText(
     contato,
-    `🏋️‍♂️🏊‍♀️ Musculação + Piscina 2x
-📆 2 x Mensal: R$ 210,00
-📆 3 x Mensal: R$ 255,00
-📆 2 x Semestral R$ 185,00
-📆 3 x Semestral R$ 225,00`
+    `*Observações*\n
+Musculação é liberada de seg à sab,
+1x 2x e 3x é a quantidade de pilates que
+o aluno deseja fazer
+`
   );
+
+await client.sendText(
+    contato,
+    `Os combos incluem:
+
+*Funcional*
+-Segunda e quarta - 17h20
+-Segunda e quarta - 18h30
+-Terça - 17h10`
+  );
+
+await client.sendText(
+    contato,
+    `*Zumba* 
+-Terça 19h00
+*Passinho*
+-Terça e quinta 7h30
+*GAP*
+-Quarta 19h30`
+  );
+
+ 
   await enviarMensagemLenta(
     client,
     contato,
@@ -670,8 +721,9 @@ case '14':
     contato,
     `🎫 *Total pass / Wellhub*\n
 - Utilize seu benefício corporativo para treinar conosco com praticidade e economia.\n
-- Piscina tratada com ozônio, 32°C, sem odor forte.\n
-- Obrigatório! Atestado médico e dermatológico para uso da piscina.`
+- Nossa piscina é aquecida e possui tratamento com ozônio oferecendo mais saúde e conforto, pois o ozônio reduz irritações na pele, olhos e vias respiratórias. O resultado é uma água mais pura, segura e agradável para a prática esportiva.\n
+- Obrigatório! Atestado médico e dermatológico para uso da piscina.
+`
   );
 
   await client.sendText(
@@ -689,6 +741,11 @@ Silver Hidroginástica e Natação
 Gold + pilates`
   );
 
+  await client.sendText(
+    contato,
+    `*Atenção*\n-
+Para ambos benefícios é obrigatório o agendamento prévio, através do nosso aplicativo Nexfit. `
+  );
 
   await enviarMensagemLenta(
     client,
@@ -896,7 +953,6 @@ case '3':
     client,
     contato,
     `🛠️ *Serviços:*\n\n` +
-    `📌 Taxa de Avaliação Inicial\nObrigatória no início\n💰 R$ 35,00\n\n` +
     `📌 Taxa de Matrícula\nÚnica na adesão\n💰 R$ 20,00`
   );
 
@@ -904,7 +960,7 @@ case '3':
     client,
     contato,
     `🏋️‍♂️ *Avaliação Física:*\nRealizada por profissional de educação física\n💰 R$ 100,00\n\n` +
-    `🥗 *Avaliação Nutricional:*\nAnálise e plano feito por nutricionista\n💰 R$ 250,00\n\n` +
+    `🥗 *Avaliação Nutricional:*\n 1 Consulta e 1 retorno\n💰 R$ 250,00\n 1 Consulta e 2 retornos\n💰 R$ 300,00\n\n`  +
     `Para novo atendimento, digite *menu* ou *olá*.`
   );
 
@@ -924,29 +980,37 @@ case '3':
   contato,
   `🏊‍♀️ *Piscina – 2ª, 4ª*
 • 07h - Natação Adulto (iniciante/avançado)
+• 07h20 - Natação Infantil (3 a 12 anos)
 • 08h - Hidroginástica
 • 9h    - Natação Infantil (3 a 6 anos)
 • 9h50 - Natação Infantil (7 a 12 anos)
 • 16h30 - Natação Adulto (iniciante/avançado)
+• 18h10 - Natação Infantil (3 a 12 anos)
 • 19h10 - Hidroginástica
 • 20h - Natação Adulto (iniciante/avançado)
-
-🏊‍♀️ *Piscina – 6ª*
-• 8h - Hidroginástica
-• 19h - Hidroginástica`
+`
 );
 
           await new Promise((r) => setTimeout(r, 1000));
           await client.sendText(
             contato,
             `🏊‍♂️ *Piscina – 3ª e 5ª*
-• 06h - Natação Avançado
+• 06h30 - Natação Avançado
 • 13h - Natação Avançado
 • 14h - Natação Avançado
-• 15h - Natação Infantil ( Bebe de 6 meses a 2 anos)
+• 15h - Natação Bebe (6 meses a 2 anos)
 • 16h - Hidro Power
+• 17h - Natação Infantil (3 a 12 anos)
 • 18h - Natação (2 a 6 anos e adulto)
-• 19h10 - Natação Infantil (3 a 12 anos)
+• 19h10 - Natação Infantil (3 a 12 anos)` );
+
+
+await new Promise((r) => setTimeout(r, 1000));
+          await client.sendText(
+            contato,
+`🏊‍♀️ *Piscina – 6ª*
+• 8h - Hidroginástica
+• 19h - Hidroginástica
 
 Para novo atendimento, digite *menu* ou *olá*.`
           );
